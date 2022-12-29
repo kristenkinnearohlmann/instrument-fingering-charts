@@ -1,5 +1,6 @@
 <script>
 	import DraftHeader from '../components/DraftHeader.svelte';
+	import PageHeader from '../components/PageHeader.svelte';
 	let name = 'world';
 </script>
 
@@ -8,8 +9,7 @@
 </svelte:head>
 
 <DraftHeader />
-
-<h1>Instrument Fingering Charts</h1>
+<PageHeader />
 
 <style>
 	:global(*) {
