@@ -7,4 +7,8 @@
 </div>
 
 <style>
+	div {
+		margin: 0 auto;
+		width: 95%;
+	}
 </style>
