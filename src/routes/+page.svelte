@@ -9,7 +9,7 @@
 
 <DraftHeader />
 
-<h1>Hello {name}!</h1>
+<h1>Instrument Fingering Charts</h1>
 
 <style>
 	:global(*) {
