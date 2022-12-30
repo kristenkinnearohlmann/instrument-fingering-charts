@@ -1,6 +1,7 @@
 <script>
 	import DraftHeader from '../components/DraftHeader.svelte';
 	import PageHeader from '../components/PageHeader.svelte';
+	import SelectionForm from '../components/SelectionForm.svelte';
 	let name = 'world';
 </script>
 
@@ -10,6 +11,7 @@
 
 <DraftHeader />
 <PageHeader />
+<SelectionForm />
 
 <style>
 	:global(*) {
