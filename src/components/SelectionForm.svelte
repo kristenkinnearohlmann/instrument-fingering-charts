@@ -1,7 +1,14 @@
 <script></script>
 
-<div>
-	<p>Form will go here</p>
-</div>
+<main>
+	<div>
+		<p>Form will go here</p>
+	</div>
+</main>
 
-<style></style>
+<style>
+	main {
+		margin: 0 auto;
+		width: 95%;
+	}
+</style>
