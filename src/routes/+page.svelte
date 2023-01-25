@@ -9,7 +9,7 @@
 </svelte:head>
 
 <DraftHeader />
-<PageHeader />
+<PageHeader pageTitle="Instrument Fingering Charts" />
 <SelectionForm />
 
 <style>

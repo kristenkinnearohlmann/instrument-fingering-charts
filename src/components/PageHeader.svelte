@@ -3,7 +3,7 @@
 </script>
 
 <div>
-	<h2>{pageTitle || 'Instrument Fingering Charts'}</h2>
+	<h2>{pageTitle}</h2>
 	<p>This tool allows interactive selection of fingerings for various instruments.</p>
 </div>
 
