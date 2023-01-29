@@ -2,7 +2,11 @@
 
 <main>
 	<div class="selection-form-component">
-		<form class="note-options" />
+		<form class="note-options">
+			<p>Instrument</p>
+			<p>Octave</p>
+			<p>Pitch</p>
+		</form>
 	</div>
 </main>
 
