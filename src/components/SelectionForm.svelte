@@ -6,6 +6,8 @@
 			<p>Instrument</p>
 			<p>Octave</p>
 			<p>Pitch</p>
+			<button>Results</button>
+			<button>Reset</button>
 		</form>
 	</div>
 </main>
