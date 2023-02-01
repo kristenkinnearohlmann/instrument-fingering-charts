@@ -3,6 +3,14 @@
 <main>
 	<div class="selection-form-component">
 		<form class="note-options">
+			<div>
+				<label for="instrument-choice" name="instrument-choice" class="choice-label"
+					>Instrument:
+					<select id="instrument-choice" name="instrument-choice">
+						<option />
+					</select>
+				</label>
+			</div>
 			<p>Instrument</p>
 			<p>Octave</p>
 			<p>Pitch</p>
