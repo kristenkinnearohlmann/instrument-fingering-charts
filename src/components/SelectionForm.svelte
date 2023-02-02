@@ -1,4 +1,6 @@
-<script></script>
+<script>
+	console.log('In SelectionForm');
+</script>
 
 <main>
 	<div class="selection-form-component">
@@ -20,7 +22,7 @@
 	</div>
 </main>
 
-<style>
+<style type="text/scss">
 	main {
 		margin: 0 auto;
 		width: 95%;
@@ -35,16 +37,16 @@
 		font-size: inherit;
 		margin-bottom: 15px;
 		padding: 10px;
-	}
 
-	.note-options {
-		border: 2px solid gray;
-		border-radius: 8px;
-		display: flex;
-		flex-direction: column;
-		font-family: inherit;
-		font-size: inherit;
-		margin-bottom: 15px;
-		padding: 10px;
+		.note-options {
+			border: 2px solid gray;
+			border-radius: 8px;
+			display: flex;
+			flex-direction: column;
+			font-family: inherit;
+			font-size: inherit;
+			margin-bottom: 15px;
+			padding: 10px;
+		}
 	}
 </style>
