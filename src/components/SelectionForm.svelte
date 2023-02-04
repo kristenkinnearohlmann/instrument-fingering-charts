@@ -47,6 +47,10 @@
 			font-size: inherit;
 			margin-bottom: 15px;
 			padding: 10px;
+
+			div {
+				margin: 5px 0;
+			}
 		}
 	}
 </style>
