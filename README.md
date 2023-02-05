@@ -10,3 +10,5 @@ const { sveltePreprocess } = pkg;
 // instead of
 import { sveltePreprocess } from 'svelte-preprocess';
 ```
+
+- Move all initial work to this repo
