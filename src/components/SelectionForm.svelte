@@ -52,5 +52,17 @@
 				margin: 5px 0;
 			}
 		}
+
+		select {
+			font-family: inherit;
+			font-size: inherit;
+			width: 5rem;
+		}
+
+		button {
+			font-family: inherit;
+			font-size: 0.95rem;
+			margin: 3px 0;
+		}
 	}
 </style>
