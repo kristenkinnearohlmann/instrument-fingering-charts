@@ -1,14 +1,17 @@
 # Instrument Fingering Charts
 
-<https://github.com/sveltejs/language-tools/blob/master/docs/preprocessors/scss-less.md>
-
--
+- SCSS preprocessing
 
 ```javascript
-import pkg from 'svelte-preprocess';
-const { sveltePreprocess } = pkg;
-// instead of
-import { sveltePreprocess } from 'svelte-preprocess';
+// If using vite, there's a pre-processor installed for that
+// svelte.config.js
+// ...
+import { vitePreprocess } from '@sveltejs/kit/vite';
+// ...
+export default {
+	// ..
+	preprocess: [vitePreprocess()]
+};
 ```
 
 - Move all initial work to this repo

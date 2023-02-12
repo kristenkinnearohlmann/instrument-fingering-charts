@@ -22,7 +22,7 @@
 	</div>
 </main>
 
-<style type="text/scss">
+<style lang="scss">
 	main {
 		margin: 0 auto;
 		width: 95%;
