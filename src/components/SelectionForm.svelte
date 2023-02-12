@@ -60,9 +60,17 @@
 		}
 
 		button {
+			background-color: silver;
+			border-radius: 10px;
 			font-family: inherit;
 			font-size: 0.95rem;
 			margin: 3px 0;
+			padding: 0.25rem;
+
+			&:hover {
+				background-color: aliceblue;
+				color: silver;
+			}
 		}
 	}
 </style>
