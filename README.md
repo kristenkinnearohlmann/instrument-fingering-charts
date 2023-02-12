@@ -4,6 +4,7 @@
 
 ```javascript
 // If using vite, there's a pre-processor installed for that
+// It's part of https://github.com/sveltejs/vite-plugin-svelte/blob/main/docs/preprocess.md
 // svelte.config.js
 // ...
 import { vitePreprocess } from '@sveltejs/kit/vite';
