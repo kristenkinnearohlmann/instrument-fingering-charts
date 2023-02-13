@@ -13,7 +13,6 @@
 					</select>
 				</label>
 			</div>
-			<p>Instrument</p>
 			<p>Octave</p>
 			<p>Pitch</p>
 			<button>Results</button>
