@@ -86,4 +86,12 @@
 			}
 		}
 	}
+
+	@media only screen and (min-width: 768px) {
+		.note-options {
+			flex-direction: unset;
+			font-size: inherit;
+			justify-content: space-around;
+		}
+	}
 </style>
