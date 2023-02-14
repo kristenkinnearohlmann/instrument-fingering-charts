@@ -13,8 +13,22 @@
 					</select>
 				</label>
 			</div>
-			<p>Octave</p>
-			<p>Pitch</p>
+			<div>
+				<label for="octave-choice" name="octave-choice" class="choice-label"
+					>Octave:
+					<select id="octave-choice" name="octave-choice">
+						<option />
+					</select>
+				</label>
+			</div>
+			<div>
+				<label for="pitch-choice" name="pitch-choice" class="choice-label"
+					>Pitch:
+					<select id="pitch-choice" name="pitch-choice">
+						<option />
+					</select>
+				</label>
+			</div>
 			<button>Results</button>
 			<button>Reset</button>
 		</form>
