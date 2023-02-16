@@ -16,3 +16,4 @@ export default {
 ```
 
 - Move all initial work to this repo
+- Add validation
