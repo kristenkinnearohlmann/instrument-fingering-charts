@@ -17,3 +17,4 @@ export default {
 
 - Move all initial work to this repo
 - Add validation
+- Add component for display of choice
