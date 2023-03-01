@@ -1,5 +1,35 @@
 <script>
 	console.log('In SelectionForm');
+
+	const populateDropdownList = (listData, listElement) => {
+		let optDefault = document.createElement('option');
+
+		while (listElement.firstChild) {
+			listElement.removeChild(listElement.firstChild);
+		}
+
+		optDefault.value = '';
+		optDefault.text = '';
+		listElement.appendChild(optDefault);
+
+		if (listData) {
+			listData.forEach((listItem) => {
+				let opt = document.createElement('option');
+				opt.value = listItem.value;
+				opt.textContent = listItem.option;
+				listElement.appendChild(opt);
+			});
+		}
+	};
+
+	const generateInstrumentOptions = () => {
+		const instrumentOptionData = [
+			{ option: 'Flute', value: 'flute' },
+			{ option: 'Piccolo', value: 'piccolo' }
+		];
+
+		populateDropdownList(instrumentOptionData);
+	};
 </script>
 
 <main>
@@ -8,7 +38,7 @@
 			<div>
 				<label for="instrument-choice" name="instrument-choice" class="choice-label"
 					>Instrument:
-					<select id="instrument-choice" name="instrument-choice">
+					<select id="instrument-choice" name="instrument-choice" value={generateInstrumentOptions}>
 						<option />
 					</select>
 				</label>
