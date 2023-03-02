@@ -21,7 +21,7 @@
 			});
 		}
 	};
-
+	// implement bind:this? https://svelte.dev/docs#template-syntax-element-directives-bind-this
 	const generateInstrumentOptions = () => {
 		const instrumentOptionData = [
 			{ option: 'Flute', value: 'flute' },
